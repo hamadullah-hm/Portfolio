@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import 
+url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab';
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F172A;
+    color: white;
+    padding: 10px 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 30px;
+    color: orange;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    background-color: #0F172A;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 0x solid rgb(255, 252, 252);
+    width: 750px;
+    height: 490px;
+
+
+}
+
+.box h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+
+}
+
+.box h2 {
+    color: white;
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: gray;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.Me {
+    color: orange;
+}
+
+.btn1 {
+    border-radius: 40px;
+    cursor: pointer;
+    /* width: 90px;
+    height: 50px; */
+    margin-left: 80px;
+    background-color: #38BBED;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+
+
+:hover.btn1 {
+    background-color: rgb(77, 80, 75);
+}
+
+.btn2 {
+    position: relative;
+    padding: 15px 30px;
+    color: white;
+    background-color: #0E263E;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+::backdrop.btn2 {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0, 3);
+    transition: 0.4s;
+}
+
+.bt2:hover::before {
+    left: 0;
+}
+
+.box2 {
+    box-sizing: border-box;
+    border: 0x solid rgb(255, 252, 252);
+    width: 750px;
+    height: 490px;
+
+
+}
+
+.box2 img {
+    margin-left: 200px;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+
+:hover img {
+    background-color: #0F172A;
+}
+
+.container2 {
+    box-sizing: border-box;
+    border: 2px solid rgb(15, 15, 15);
+    background-color: #020617;
+
+}
+
+.About-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+#span2 {
+    color: #5B4CD7;
+}
+
+#who {
+    color: white;
+    margin-left: 500px;
+}
+
+.para {
+    color: #86A3B8;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-container {
+    background-color: #020617;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-para {
+    box-sizing: border-box;
+    border: none;
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+}
+
+.about-para h4 {
+    color: white;
+}
+
+.about-para2 {
+    box-sizing: border-box;
+    border: none;
+    width: 500px;
+    height: 300px;
+}
+
+.about-para2 h4 {
+    color: white;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns1 {
+    border-radius: 80px;
+    width: 100px;
+    height: 40px;
+}
+
+.btns2 {
+    border-radius: 80px;
+    width: 100px;
+    height: 40px;
+}
+
+.btns1:hover {
+    background-color: rgb(233, 158, 73);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btns2:hover {
+    background-color: rgb(233, 158, 73);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Experience Timeline */
+
+.experinece-timeline {
+    border: none;
+
+}
+
+.experinece-timeline h3 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.experience {
+    background: #959595;
+    background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 18%, #0A0A0A 21%, #4E4E4E 18%, #383838 18%, #1B1B1B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+}
+
+.box-container {
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.box1 {
+    background-color: #1E293B;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: #e5e7eb;
+    color: white;
+    width: 400px;
+    height: 280px;
+}
+
+.bex2 {
+    background-color: #1E293B;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: #e5e7eb;
+    width: 400px;
+    height: 280px;
+}
+
+.box3 {
+    background-color: #1E293B;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: #e5e7eb;
+    width: 400px;
+    height: 280px;
+}
+
+/* Box1 Experience div2 */
+.experience1 {
+    margin: 30px;
+}
+
+.head {
+    color: white;
+}
+
+.para1 {
+    color: #7A889C;
+}
+
+/* Box2 Experience div2 */
+.experience2 {
+    margin: 20px;
+}
+
+.head1 {
+    color: white;
+}
+
+.para2 {
+    color: #7A889C;
+}
+
+.para3 {
+    color: white;
+}
+
+/* Box3 Experience div2 */
+
+.experience3 {
+    margin: 20px;
+}
+
+.head2 {
+    color: white;
+}
+
+.para4 {
+    color: #7A889C;
+}
+
+.para5 {
+    color: white;
+}
+
+.skill-container {
+    border: none;
+    margin-top: 50px;
+}
+
+.heading3 {
+    background: #A7CFDF;
+    background: linear-gradient(to right, #A7CFDF 0%, #23538A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+
+.boxy1 {
+     background-color: #1E293B;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 20px;
+    border:#e5e7eb;
+    width: 150px;
+    height: 150px;
+}
+
+.boxy2 {
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+.boxy3 {
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+.boxy4 {
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+.boxy5 {
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+/* Box1 Html Icon */
+.devicon-html5-plain{
+    margin-left: 42px;
+}
+
+
+.html-icon{
+    /* font-size: larger; */
+    /* margin-left: 29px; */
+    margin-top: 20px;
+    /* color: orange; */
+}
+
+.html-span{
+    margin-left: 44px;
+    color: white;
+    font-size: larger;
+}
